@@ -1,3 +1,8 @@
+:root {
+  --main-bg-color: coral;
+  --yellow-bg-color: #f6d616;
+}
+
 /*main adjustments*/
 /* start navbar properties */
 .navbar-expand-lg .navbar-collapse {
@@ -11,6 +16,7 @@
 
 * {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
 
 .allign-left {
@@ -82,10 +88,38 @@ main .article-3 .row-norm {
 }
 
 main .fit-content.text-center {
-    padding: 0px;
-    padding-top: 6px;
+  padding: 0px;
+  padding-top: 6px;
 }
 
 .font-weight {
   font-size: 24px;
+}
+
+.heavy {
+  font-weight: 900;
+  text-decoration: underline;
+  font-size: larger;
+}
+
+.li-font {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+table td {
+  padding: 5px;
+  vertical-align: middle;
+}
+
+.td-rtl {
+  direction: ltr;
+}
+
+.tr-color {
+  background-color: var(--yellow-bg-color);
+}
+
+.alternate-row:nth-child(odd) {
+  background-color: #f9f3c3;
 }
